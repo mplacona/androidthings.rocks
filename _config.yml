@@ -1,7 +1,7 @@
 markdown: kramdown
 
 # Permalinks
-permalink:           pretty
+permalink:          /:title
 
 # Setup
 title:               Android Things
@@ -10,6 +10,8 @@ description:         'A website with Android Things & IoT musings by <a href="ht
 url:                 http://androidthings.rocks
 baseurl:             ""
 future:              true
+port:                4001
+
 
 # Pagination
 baseurl:             

@@ -1,7 +1,7 @@
 {
-  "name": "androidsecurity.info",
+  "name": "androidthings.rocks",
   "version": "0.0.1",
-  "description": "androidsecurity.info",
+  "description": "androidthings.rocks",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
