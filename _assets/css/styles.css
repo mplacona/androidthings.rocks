@@ -1,0 +1,11 @@
+div .nav-header{
+    max-width:930px;
+    margin:0 auto;
+    font-weight: bold;
+    color: red;
+}
+
+.post-meta{
+    font-style: italic;
+    font-size: 15px;
+}

@@ -1,0 +1,62 @@
+markdown: kramdown
+
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Android Things
+tagline:             'Musings about Android Things & IoT'
+description:         'A website with Android Things & IoT musings by <a href="https://twitter.com/marcos_placona">Marcos Placona</a>'
+url:                 http://androidthings.rocks
+baseurl:             ""
+future:              true
+
+# Pagination
+baseurl:             
+paginate:            5
+
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-assets
+
+# About/contact
+author:
+  name:              Marcos Placona
+  url:               https://twitter.com/marcos_placona
+  email:             marcos.placona@gmail.com
+  twitter:
+    username: marcos_placona
+
+
+# Custom vars
+version:             1.0.0
+production:          true
+
+
+# This website's repo
+github:
+  repo:           https://github.com/mplacona/androidthings.github.io
+
+exclude:
+  - templates
+  - LICENSE.md
+  - README.md
+  - LICENSE.lanyon
+  - README.lanyon
+  - vendor
+  - _app
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - node_modules
+  - package.json
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-53102965-2
+
+# Assets
+sass:
+  style: compressed
+attributes:
+    async: true

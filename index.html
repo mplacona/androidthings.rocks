@@ -1,0 +1,27 @@
+---
+layout: default
+title: Home
+---
+
+{% capture description %}{% include description.md %}{% endcapture %}
+{{ description | markdownify }}
+
+<div class="posts">
+
+  {% assign posts = paginator.posts %}
+
+  {% for post in posts %}
+    <div class="row">
+      <div class="intro cell cell-12 cell-med-10 cell-centre">
+        <h1 class="post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a>
+        </h1> 
+        <span itemprop="name" class="post-meta">by <a href="{{ site.author.url }}">{{ site.author.name }}</a></span>             
+        {{ post.excerpt }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+

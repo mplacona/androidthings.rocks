@@ -1,0 +1,37 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+    <div class="wrap">
+      <div class="nav-header">
+        <nav align="right">
+          <a href="{{ site.baseurl }}/about/" title="about">About</a>
+        </nav>
+      </div>
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
+        </div>        
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+    {% include global/analytics.html %}
+      <!-- CSS -->
+      <link type="text/css" rel="stylesheet" href="{% asset_path app.css %}" async>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400" async>
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" async>
+
+  </body>
+</html>
