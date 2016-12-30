@@ -5,9 +5,9 @@ COMMIT = `git rev-parse --short HEAD`
 test:
 	@${JEKYLL} bundle exec jekyll serve --watch -H 0.0.0.0 --drafts --trace
 
-build:
+build: clean
 	@echo "Building site"
-	@${JEKYLL} bundle exec jekyll build --trace
+	@${JEKYLL} bundle exec jekyll build
 
 # deploy: build
 # 	@git checkout master
@@ -17,5 +17,5 @@ build:
 # 	@echo "Once everything is valid, git checkout develop && sudo git clean -f -d"
 # 	@python -m SimpleHTTPServer 4000
 
-# clean:
-# 	@rm -rf _site
+clean:
+	@rm -rf _site
