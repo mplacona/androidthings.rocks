@@ -1,7 +1,7 @@
 markdown: kramdown
 
 # Permalinks
-permalink:          /:title
+permalink:          pretty
 
 # Setup
 title:               Android Things
