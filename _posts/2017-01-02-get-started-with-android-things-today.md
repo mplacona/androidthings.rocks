@@ -136,7 +136,7 @@ Make sure you replace `<Network_SSID>` with your network name and `<Network_Pass
 Running the command above will get your Pi connected to the WiFi. If you still have it up on the screen you will see that it gets an IP address assigned to it soon after you run it. You can now remove the ethernet cable from it. I found that restarting it again is best though as it guarantees the device is not `offline`.
 
 ## Running your first Hello Things application
-This wouldn't be a complete tutorial if we didn't run an application to make sure Android was actually running on our Raspberry Pi as expected.
+This wouldn't be a complete tutorial if we didn't run an application to make sure Android was actually running on our Raspberry Pi as expected. You can continue following this through or just clone this application's repository [here](https://github.com/mplacona/HelloThings).
 
 In Android Studio, create a new project called `Hello Things`. Android Things runs on API 24 and above, so make sure you pick Nougat or above and start that with an empty activity.
 
@@ -192,6 +192,6 @@ This will return us with a list of every available General-purpose input/output 
 
 Also, if you still have your Pi connected to a screen, you will see that the activity called `Hello Things` was started.
 
-![Android Things first boot](/images/hello-things.png)
+![Android Things application running](/images/hello-things.png)
 
 Now go ahead and play with some of the other samples on the [Android Things website](https://developer.android.com/things/sdk/samples.html).
