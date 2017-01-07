@@ -8,7 +8,7 @@ description: This article will take you through all the steps for getting starte
 
 Android Things is a very frictionless Android OS that helps developers build IoT applications using the Android framework and tools. You can read more about it on [What really is Android Things]({% post_url 2017-01-01-what-really-is-android-things %}). Let's have a look at how to get started with Android Things today.
 
-## Ours tools
+## Our tools
 The instructions described here have been tested on a Mac, but should be easily interchangeable with any other operating system.
 
 Android developers will already have most of the necessary tools to get started with Android Things, but here's what we will need. 
