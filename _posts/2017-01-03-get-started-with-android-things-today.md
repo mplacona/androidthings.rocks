@@ -4,6 +4,7 @@ title: Get started with Android Things today!
 image: /images/android-heart-pi-header.png
 keywords: [android things, android, IoT, internet of things, brillo, get started with android things]
 description: This article will take you through all the steps for getting started with Android Things and building your first IoT project using Android on a Raspberry Pi 3.
+author: marcos
 ---
 
 Android Things is a very frictionless Android OS that helps developers build IoT applications using the Android framework and tools. You can read more about it on [What really is Android Things]({% post_url 2017-01-01-what-really-is-android-things %}). Let's have a look at how to get started with Android Things today.

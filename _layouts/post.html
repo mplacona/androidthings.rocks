@@ -2,12 +2,15 @@
 layout: default
 ---
 
+<!-- Look the author details up from the site config. -->
+{% assign author = site.data.authors[page.author] %}
+
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   {% if page.image %}
     <img src="{{ page.image }}" alt="{{ page.title }} - Logo" class="post-header-image">
   {% endif %}
-  <span itemprop="name" class="post-meta">by <a href="{{ site.author.url }}">{{ site.author.name }}</a></span>
+  <span itemprop="name" class="post-meta">by <a href="{{ author.url }}">{{ author.name }}</a></span>
   {{ content }}
 </div>
 

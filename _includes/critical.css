@@ -22,6 +22,11 @@ footer {
   font-size: 16px;
   line-height: 0.5;
   font-weight:bold;
+  text-align: center;
+}
+
+nav {
+  text-align: right;
 }
 
 @media (min-width: 38em) {

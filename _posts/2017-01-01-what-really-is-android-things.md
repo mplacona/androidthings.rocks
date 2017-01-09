@@ -3,6 +3,7 @@ layout: post
 title: What really is Android Things?
 image: /images/android-things-header.png
 keywords: [android things, android, IoT, internet of things, brillo]
+author: marcos
 ---
 
 Google announced Android Things (then codenamed Brillo) at Google I/O 2015 with the intent for it to be used with low-power and memory constrained IoT devices. But what really is Android Things?
