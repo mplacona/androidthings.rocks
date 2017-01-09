@@ -9,3 +9,8 @@ div .nav-header{
     font-style: italic;
     font-size: 15px;
 }
+
+.center-image{
+    margin: 0 auto;
+    display: block;
+}
