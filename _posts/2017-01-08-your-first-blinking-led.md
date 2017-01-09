@@ -2,8 +2,8 @@
 layout: post
 title: Your first blinking LED
 image: /images/android-things-rocks-panel.gif
-keywords: [android things, android, IoT, internet of things, brillo, get started with android things, first android things project]
-description: This article will take you through all the steps for getting started with Android Things and building your first IoT project using Android on a Raspberry Pi 3.
+keywords: [android things, android, IoT, internet of things, brillo, get started with android things, first android things project, resistor, LED]
+description: In this article you will learn how to blink your first LED using Android Things and just a couple of other components.
 author: marcos
 ---
 
