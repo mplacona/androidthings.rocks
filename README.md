@@ -13,7 +13,7 @@ I would ❤️  some contributions from other authors here. Just follow these st
 
  - Fork this repository
  - Open a new issue with details about your blog post 
- - Add yourself as an author in _data/authors.yml
- - Create a new blog post in _posts (it's easier to copy an existing one and make your changes)
+ - Add yourself as an author in `_data/authors.yml`
+ - Create a new blog post in `_posts` (it's easier to copy an existing one and make your changes. Don't forget to change the author)
  - Send me a pull request with everything
  - 🤗  wait for my virtual hug
