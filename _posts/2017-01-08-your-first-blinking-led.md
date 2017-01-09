@@ -44,6 +44,7 @@ Now that we're all hooked up, let's go ahead and open up the `HelloThings` proje
 ```
 git clone git@github.com:mplacona/HelloThings.git
 ```
+You can also download the finished code in [this repository](https://github.com/mplacona/BlinkThings) or carry on with the instructions.
 
 Open up `hellothings/MainActivity.java` and add the following static and member variables at the top of the class and resolve the dependencies to `Handler` and `Gpio`:
 
