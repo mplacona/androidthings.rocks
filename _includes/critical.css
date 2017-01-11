@@ -222,8 +222,6 @@ h3 {
   backface-visibility: hidden;
 }
 
-
-
 .post {
   margin-bottom: 4em;
 }
@@ -236,14 +234,21 @@ h3 {
   margin-top: 0;
 }
 
-div .nav-header {
-  max-width: 930px;
-  margin: 0 auto;
-  font-weight: bold;
-  color: red;
-}
-
 .post-meta {
   font-style: italic;
   font-size: 15px;
 }
+
+.link-nav{
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+.link-nav a{
+  border-bottom: 1px #ac4142 dotted;
+  font-size: 16px;
+}
+
+.link-nav a:hover { 
+    text-decoration: none;
