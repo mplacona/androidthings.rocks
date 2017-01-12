@@ -173,7 +173,7 @@ Now head to the application's manifest and add an entry to the shared library an
 </application>
 ```
 
-Lastly, head to `hellothings/MainActivity.java` and change the `omCreate` method to list all the available peripherals on our Raspberry Pi.
+Lastly, head to `hellothings/MainActivity.java` and change the `onCreate` method to list all the available peripherals on our Raspberry Pi.
 
 ```java
 @Override
