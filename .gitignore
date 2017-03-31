@@ -4,6 +4,7 @@ _site
 .ruby-version
 /vendor/bundle
 .bundle
+.jekyll-metadata
 
 # Numerous always-ignore extensions
 *.diff
@@ -31,6 +32,7 @@ nbproject
 *.sublime-workspace
 .idea
 .asset-cache/
+.vscode/
 
 # Komodo
 *.komodoproject

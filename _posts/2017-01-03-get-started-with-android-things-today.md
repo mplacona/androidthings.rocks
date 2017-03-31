@@ -27,15 +27,15 @@ The Android Things website has instructions about [how to flash the image](https
 Open up the zip file you downloaded with Android things preview and there should be a file called `iot_rpi3.img` inside of it. If you got the file, feel free to skip the next heading.
 
 ### But I hit a snag!
-I hit a snag here where the extracted file was called `androidthings_rpi3_devpreview_1.zip.cpgz`, and extracting that would give me a file called `androidthings_rpi3_devpreview_1 1.zip` and this would go on pretty much forever. I found [this article](http://osxdaily.com/2013/02/13/open-zip-cpgz-file/) partially helpful.
+I hit a snag here where the extracted file was called `androidthings_rpi3_devpreview_2.zip.cpgz`, and extracting that would give me a file called `androidthings_rpi3_devpreview_2 1.zip` and this would go on pretty much forever. I found [this article](http://osxdaily.com/2013/02/13/open-zip-cpgz-file/) partially helpful.
 
 The gist of it is that you need to unzip the file via terminal, but using the methodology described on the website returned something like this:
 
 ```bash
-Archive:  androidthings_rpi3_devpreview_1.zip
-warning [androidthings_rpi3_devpreview_1.zip]:  76 extra bytes at beginning or within zipfile
+Archive:  androidthings_rpi3_devpreview_2.zip
+warning [androidthings_rpi3_devpreview_2.zip]:  76 extra bytes at beginning or within zipfile
   (attempting to process anyway)
-error [androidthings_rpi3_devpreview_1.zip]:  reported length of central directory is
+error [androidthings_rpi3_devpreview_2.zip]:  reported length of central directory is
   -76 bytes too long (Atari STZip zipfile?  J.H.Holm ZIPSPLIT 1.1
   zipfile?).  Compensating...
    skipping: iot_rpi3.img            need PK compat. v4.5 (can do v2.1)
@@ -49,7 +49,7 @@ Our file is in there as you can see, but just using the `unzip` command does not
 
 ```bash
 $ brew install p7zip
-$ 7za x androidthings_rpi3_devpreview_1.zip
+$ 7za x androidthings_rpi3_devpreview_2.zip
 ```
 
 ### Formatting the memory card
@@ -146,7 +146,7 @@ Head to your application level Gradle file and add a dependency to Android Thing
 ```groovy
 dependencies {
     ...
-    provided 'com.google.android.things:androidthings:0.1-devpreview'
+    provided 'com.google.android.things:androidthings:0.2-devpreview'
 }
 ```
 
