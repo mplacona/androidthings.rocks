@@ -18,7 +18,8 @@ title: Home
             {{ post.title }}
           </a>
         </h1> 
-        <span itemprop="name" class="post-meta">by <a href="{{ site.author.url }}">{{ site.author.name }}</a></span>             
+        {% assign author = site.data.authors[post.author] %}
+        <span itemprop="name" class="post-meta">by <a href="{{ author.url }}">{{ author.name }}</a></span>             
         {{ post.excerpt }}
       </div>
     </div>
