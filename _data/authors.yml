@@ -1,0 +1,18 @@
+Marcos Placona:
+    name:               "Marcos Placona"
+    url:                "https://www.placona.co.uk"
+    bio:                "Developer evangelist at <a href='http://www.twilio.com'>Twilio</a>, GDE and in ❤️ with Open Source"
+    avatar:             "/images/marcos_bw_200_optim.jpg"
+    twitter:            "marcos_placona"
+    github:             "mplacona"
+    stackoverflow:      "279395/marcos-placona"
+
+Roberto Estivill:
+    name:               "Roberto Estivill"
+    url:                "https://robertoestivill.com"
+    bio:                "Software engineer with experience on Java and Android with interest in early stages startups"
+    avatar:             "/images/authors/roberto-estivill.png"
+    twitter:            "robertoestivill"
+    github:             "robertoestivill"
+    stackoverflow:      "961759/robert-estivill"
+    

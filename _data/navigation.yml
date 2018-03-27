@@ -1,0 +1,8 @@
+# main links links
+main:
+  - title: "About"
+    url:  /about/
+  - title: "Contributing"
+    url: https://github.com/mplacona/androidthings.rocks#contributing
+  - title: "Source"
+    url: https://github.com/mplacona/androidthings.rocks

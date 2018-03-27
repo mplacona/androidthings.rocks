@@ -1,0 +1,120 @@
+# Site settings
+title:                      Android Things
+minimal_mistakes_skin:      'mint'
+tagline:                    'Musings about Android Things & IoT'
+title_separator:            '|'
+description:                'A website with Android Things & IoT musings by <a href="https://twitter.com/marcos_placona">Marcos Placona</a>'
+url:                        http://androidthings.rocks
+baseurl:                    ""
+twitter_username:           marcos_placona
+github_username:            mplacona
+future:                     true
+port:                       4001
+words_per_minute:           130
+
+# Search
+search:                     true 
+search_full_content:        false
+
+# Social Sharing
+twitter:
+  username               : "marcos_placona"
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Analytics
+analytics:
+  provider               : "google" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "UA-89710423-1"
+
+# Site Author
+author:
+  name             : "Marcos Placona"
+  avatar           : "/images/marcos_bw_200_optim.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Developer evangelist at <a href='http://www.twilio.com'>Twilio</a>, GDE and in ❤️ with Open Source"
+  location         : 
+  email            : 
+  uri              : "https://www.placona.co.uk"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "mplacona"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : 
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : "279395/marcos-placona"
+  steam            :
+  tumblr           :
+  twitter          : "marcos_placona"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+
+# Outputting
+permalink: /:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true      
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
