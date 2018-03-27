@@ -4,7 +4,7 @@ minimal_mistakes_skin:      'mint'
 tagline:                    'Musings about Android Things & IoT'
 title_separator:            '|'
 description:                'A website with Android Things & IoT musings by <a href="https://twitter.com/marcos_placona">Marcos Placona</a>'
-url:                        http://androidthings.rocks
+url:                        https://androidthings.rocks
 baseurl:                    ""
 twitter_username:           marcos_placona
 github_username:            mplacona
