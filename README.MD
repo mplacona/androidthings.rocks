@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/mplacona/androidthings.rocks.svg?branch=master)](https://travis-ci.org/mplacona/androidthings.rocks)
-
 # About
 This is the repository for [AndroidThings.rocks](https://www.androidthings.rocks)
 
